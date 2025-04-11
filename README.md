@@ -1,4 +1,6 @@
 Manual Setup for Passwordless SSH Authentication (Without ssh-copy-id)
+
+
 🔑 Step 1: Generate SSH Key Pair (on Control Node)
 Run this command on your Ansible control node (e.g., Jenkins server):
 
@@ -11,6 +13,7 @@ This generates:
 Private key: ~/.ssh/id_rsa
 
 Public key: ~/.ssh/id_rsa.pub
+
 
 📥 Step 2: Copy Public Key to Target Node (Manually)
 SSH into the target EC2 instance:
@@ -41,6 +44,8 @@ Copy
 Edit
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
+
+
 ✅ Step 3: Verify SSH Connection
 From the control node:
 

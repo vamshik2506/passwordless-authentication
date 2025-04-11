@@ -2,10 +2,10 @@
 
 
 ## 🔑 Step 1: Generate SSH Key Pair (on Control Node)
-Run this command on  control node (e.g., Jenkins server):
+Run this command on  control node :
 
 ```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen "
 
 ```
 

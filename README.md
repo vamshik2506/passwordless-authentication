@@ -5,7 +5,7 @@
 Run this command on  control node :
 
 ```
-ssh-keygen "
+ssh-keygen
 
 ```
 
